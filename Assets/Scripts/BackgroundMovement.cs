@@ -7,7 +7,7 @@ public class BackgroundMovement : MonoBehaviour
 	private GameObject camera;
 	[SerializeField] float camera_x;
 	private float start_position;
-	private float interval = 3f;
+	private float interval = 24f;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +16,7 @@ public class BackgroundMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
 		camera_x = camera.transform.position.x;
 		// transform.position = new Vector3(start_position + camera.transform.position.x, transform.position.y, transform.position.z);

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 51989cbac3f7b84e4aa5e39c664327eb
+guid: f3dc3a8397865ea82b827e4b9b7d37fd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -67,10 +67,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: brick_0
+      name: player_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 216
-        width: 216
-        height: 72
+        y: 504
+        width: 504
+        height: 504
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10f73fe465dc67305bde0d13a0282773
-      internalID: 1467781160
+      spriteID: 6703f6b5ca8642824b1296835f1e938f
+      internalID: 563402995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: brick_1
+      name: player_1
       rect:
         serializedVersion: 2
-        x: 216
-        y: 216
-        width: 216
-        height: 72
+        x: 504
+        y: 504
+        width: 504
+        height: 504
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 298fca2ece585075cb17801e5cdd9c24
-      internalID: 1761745423
+      spriteID: 40297fadef0ed91d8bf1880a55479879
+      internalID: -1951705625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: brick_2
+      name: player_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 144
-        width: 216
-        height: 72
+        x: 1008
+        y: 504
+        width: 504
+        height: 504
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 665d427cb82057cb8a5065e1254dd721
-      internalID: -642920857
+      spriteID: 213b881fdc72c2fcf869bbf21746c43f
+      internalID: 130317589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: brick_3
+      name: player_3
       rect:
         serializedVersion: 2
-        x: 216
-        y: 144
-        width: 216
-        height: 72
+        x: 1512
+        y: 504
+        width: 504
+        height: 504
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9cb313fd299667ecabb3b94c092095b
-      internalID: 193231019
+      spriteID: 92948e7465c1459ed94ecaa1554635a8
+      internalID: -487749145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: brick_4
+      name: player_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 72
-        width: 216
-        height: 72
+        x: 2016
+        y: 504
+        width: 504
+        height: 504
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c64890bd1d1c57808a17bccd4fbf728e
-      internalID: 896156697
+      spriteID: 735d7ff833ed806c3a24dfbb588ed9aa
+      internalID: -770991750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: brick_5
+      name: player_5
       rect:
         serializedVersion: 2
-        x: 216
-        y: 72
-        width: 216
-        height: 72
+        x: 2520
+        y: 504
+        width: 504
+        height: 504
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +236,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8782a9f73151749d2ad728e5d55dda98
-      internalID: -1395045356
+      spriteID: c8ec2fb97826b8b1f85d43a4cc5c8af0
+      internalID: 508263260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: brick_6
+      name: player_6
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 504
+        width: 504
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ce32202892cf24fb61a8ea7002547e
+      internalID: 1550967241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_7
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 504
+        width: 504
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb4b1af83dd809588709c7aeae42496
+      internalID: 1341130878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_8
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 216
-        height: 72
+        width: 504
+        height: 504
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,20 +299,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f29a230f51fbea109fee4108e3e95f9
-      internalID: -762298649
+      spriteID: d0d47294c08b9d6589605c9b0781982c
+      internalID: -686877099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: brick_7
+      name: player_9
       rect:
         serializedVersion: 2
-        x: 216
+        x: 504
         y: 0
-        width: 216
-        height: 72
+        width: 504
+        height: 504
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,8 +320,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9af13b8c9ee679d84a425dbf55ed3cba
-      internalID: -376894435
+      spriteID: 90a65b1bbedb73a23bd855bb13845913
+      internalID: -1686934784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_10
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 0
+        width: 504
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8298a6b2b41b52cb9ab8a0ba9fa85403
+      internalID: -1812303857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_11
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 0
+        width: 504
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016691f4159272edfb0a98125b4f78d3
+      internalID: 336435135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_12
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 0
+        width: 504
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc3a29b627e0ae559c3442343444603
+      internalID: -320095684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_13
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 0
+        width: 504
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b2148d69e718187aa52329139e5608
+      internalID: 1290960943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_14
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 0
+        width: 504
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100bea15c61015bd38f96bbd5e9c5347
+      internalID: -274077581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_15
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 0
+        width: 504
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad15f3050d0663302bfa11c647931b6b
+      internalID: 1851447356
       vertices: []
       indices: 
       edges: []
@@ -295,14 +463,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      brick_0: 1467781160
-      brick_1: 1761745423
-      brick_2: -642920857
-      brick_3: 193231019
-      brick_4: 896156697
-      brick_5: -1395045356
-      brick_6: -762298649
-      brick_7: -376894435
+      player_0: 563402995
+      player_1: -1951705625
+      player_10: -1812303857
+      player_11: 336435135
+      player_12: -320095684
+      player_13: 1290960943
+      player_14: -274077581
+      player_15: 1851447356
+      player_2: 130317589
+      player_3: -487749145
+      player_4: -770991750
+      player_5: 508263260
+      player_6: 1550967241
+      player_7: 1341130878
+      player_8: -686877099
+      player_9: -1686934784
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
